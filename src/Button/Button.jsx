@@ -343,7 +343,7 @@ export const Button = forwardRef(function Button(
         ref={ref}
       >
         <>
-          <Text>{children}</Text>
+          <Text>{children}</Text>error
           {isLoading && <Loading>{loadingText || 'Loading...'}</Loading>}
         </>
       </StyledButton>
